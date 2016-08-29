@@ -34,3 +34,27 @@ Here is the snippet::
   if __name__ == "__main__":
       s = TwitterSearch()
       print s.search("gunicorn")
+
+Restkit.Client options for Restkit.Resource initialization
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Here is the list of options with default:
+
+* ``follow_redirect=False``, 
+* ``force_follow_redirect=False``, 
+* ``max_follow_redirect=5``, 
+* ``filters=None``, 
+* ``decompress=True``, 
+* ``max_status_line_garbage=None``, 
+* ``max_header_count=0``, 
+* ``pool=None``, 
+* ``response_class=None``, 
+* ``timeout=None``, 
+* ``use_proxy=False``, 
+* ``max_tries=3``, 
+* ``wait_tries=0.3``, 
+* ``pool_size=10``, 
+* ``backend='thread'``, 
+* ``**ssl_args``
+ 
+Source/latest: https://benoitc.github.io/restkit/api/restkit.client.Client-class.html
